@@ -14,11 +14,6 @@
   position: relative;
 } 
 
-.container__background {
-  height: 1043px;
-  width: 906px;
-}
-
 .container__backgroundimage {
   position: absolute;
   background-image: linear-gradient(rgba(5, 5, 5, 0.9),rgba(5, 5, 5, 0.9)), url(/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile@1X.png);
@@ -27,12 +22,15 @@
   right: 0px;
   background-size: cover;
   z-index: 0;
+  height: 1043px;
+  width: 906px;
 } 
+
 * {
   font-family: 'Proxima Nova', 'AdobeInvisFont', 'Myriad Pro';
   padding: 0px;
   margin: 0px;
-  /* box-sizing: content-box; */
+  text-transform: uppercase;
 }
 
 svg {
@@ -44,8 +42,6 @@ svg {
   border: none;
   background: transparent;
   color: #FFFFFF;
-  width: 40px;
-  text-transform: uppercase;
 }
 
 .header__nav {
@@ -132,8 +128,6 @@ svg {
   height: 75%;
   display: flex;
   align-self: flex-end;
-  flex-direction: column;
-  justify-content: flex-start;
   position: relative;
 }
 
@@ -181,13 +175,13 @@ svg {
 .section__counter--dotblock {
   display: flex;
   gap: 40px;
-  align-content: center;
+  align-self: center;
   transform: rotate(90deg);
 }
 
 .section__counter {
-  font-size: 90;
   color: #303030;
+  font-size: 90;
   transform: rotate(90deg) scale(3);
 }
 
@@ -217,23 +211,6 @@ svg {
   align-content: center;
 }
 
-.wooder__logo__text,
-.headline, 
-.main__screen--floatingtext,
-.section__scrolldown--text,
-.section__header,
-.section__header--reverse, 
-.section-03__header,
-button, 
-.header__item, 
-.section_floating_initial,
-.section_floating_heading,
-.footer__copyright {
-  text-transform: uppercase;
-}
-
-
-
 .section__block {
   display: grid;
   width: 100%;
@@ -245,7 +222,7 @@ button,
 }
 
 .section__content {
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 5;
   grid-column: 1 / span 2;
   display: inherit;
   grid-template-columns: 155px, 310px;
@@ -254,9 +231,7 @@ button,
 
 .section__content--reverse {
   direction: ltr;
-  /* margin: 0px -100px; */
   z-index: 10;
-  width: fit-content;
 }
 
 .section__header {
@@ -282,6 +257,7 @@ button,
 p {
   font-size: 15;
   line-height: 1.6;
+  text-transform: none;
 }
 
 .section_floating_initial {
@@ -323,21 +299,21 @@ p {
   height: 398px;
   object-fit: cover;
   object-position: top right;
-  filter: brightness(90%);
+  filter: contrast(70%);
   box-shadow: 0px 0px 7px #D0D0D0, 0px 0px 7px #D0D0D0;
 }
 
 .section__text {
-  /* box-sizing: border-box; */
   width: 400px;
   grid-row: 3;
   grid-column: 2;
 }
 
 .long__line {
-  margin: 5px 5px;
+  margin: 5px 20px;
   grid-row: 2;
   grid-column: 1;
+  justify-self: end;
 }
 
 .short__line {
@@ -365,13 +341,6 @@ p {
 .button__arrow--scroll {
   width: 150px;
   height: 11px;
-}
-
-
-.button__line {
-  width: 47px;
-  height: 3px;
-  background: #BEA67C;
 }
 
 .button__text {
@@ -423,7 +392,6 @@ p {
   left: 0%;
 }
 
-
 .section__line--bottom {
   position: absolute;
   transform: rotate(90deg);
@@ -438,14 +406,13 @@ p {
 .section_05 {
   width: 1560px;
   height: 740px;
+  /* width: 80%; */
   box-sizing: border-box;
   margin: 0px auto;
   position: relative;
   display: flex;
   justify-content: center;
-  /* overflow: visible; */
 }
-
 
 .section-04 {
   width: 100%;
@@ -477,7 +444,7 @@ p {
 
 .section-03__text {
   width: 600px;
-  text-align:center;
+  text-align: center;
   margin: 20px auto;
 }
 
@@ -590,8 +557,8 @@ p {
   align-content: center;
   justify-content: center;
   border: #BEA67C 1px solid;
-  height: 740px;
-  width: 1560px;
+  height: 80%;
+  width: 80%;
   direction: ltr;
 }
 
@@ -620,10 +587,10 @@ p {
   transition: border 2000ms, transform 2000ms;
 }
 
-.section-04__button--layout {
+/* .section-04__button--layout {
   display: grid;
   align-content: center;
-}
+} */
 
 .section-04__button:hover {
   transform: scale(1.1);
@@ -633,6 +600,7 @@ p {
 .section-04__button:active {
   transform: scale(0.8);
 }
+
 .section-04__playicon {
   opacity: 10%;
   position: absolute;
@@ -673,6 +641,11 @@ p {
   position: absolute;
 }
 
+.footer__author {
+  text-transform: none;
+}
+
 .dev__name {
-  color:rgba(255, 255, 255, 0.322)
+  color:rgba(255, 255, 255, 0.322);
+  text-transform: none;
 }
