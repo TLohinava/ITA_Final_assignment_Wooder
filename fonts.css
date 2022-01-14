@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Proxima Nova"; src: url("//db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.eot"); 
+  src: url("//db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/72b6f2c9990bd3d37b8013a59ed78902.svg#Proxima Nova") format("svg"); 
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Myriad Pro"; src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot"); 
+  src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.svg#Myriad Pro") format("svg"); 
+  font-style: normal;
+  font-weight: 100;
+}
