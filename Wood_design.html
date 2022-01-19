@@ -14,7 +14,7 @@
     <header>
       <nav class="header__nav">
 
-        <div class="header__menu">
+        <a class="header__menu" href="#">
           <div class="header__line--wrap"> 
           <svg class="header__line">
             <line x1=0px x2=36px y1=1px y2=1px stroke="#A9946E" stroke-width=1px>
@@ -29,29 +29,29 @@
             </line>
           </svg>
           </div>
-          <div class="header__item header__item--menu">Menu</div>
-        </div>
+          <div class="header__item header__item--text">Menu</div>
+        </a>
 
-        <div class="wooder__logo">
+        <a class="wooder__logo" href="#">
           <div class="wooder__logo__text">Wooder</div>
           <svg class="wooder__logo__dash">
             <line x1=0px x2=64px y1=6px y2=6px stroke="#BEA67C" stroke-width=6px></line>
           </svg>
-        </div>
+        </a>
 
         <ul class="header__item">
-          <li>Home</li>
+          <li><a href="#" class="header__item--text">Home</a></li>
         </ul>
         <ul class="header__item">
-          <li>Products</li>
+          <li><a href="#furniture" class="header__item--text">Products</a></li>
         </ul>
         <ul class="header__item">
-          <li>About</li>
+          <li><a href="#about" class="header__item--text">About</a></li>
         </ul>
 
         <div class="header__info">
-          <img class="header__info--button" src="info44@1X.png" alt="information point" />
-          <select class="header__item header__item__language">
+          <a href="#"><img class="header__info--button" src="info44@1X.png" alt="information point" /></a>
+          <select class="header__item header__item--text language__arrow">
             <option selected>en</option>
             <option disabled>ru</option>
             <option disabled>by</option>
@@ -73,18 +73,20 @@
             <h1 class="headline">Wooder
             </h1>
 
-            <button class="banner__button main__section--button">Learn more
-              <svg class="button__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="60px" height="20px" viewBox="0 0 60 11">
-              <defs>
-                <marker id="arrowhead_main" markerWidth="7" markerHeight="11"  refX="6.3882" refY="5.237" orient="auto">
-                <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
-                0.375,0.375 6.3882,5.237 0.375,10.325 "/>
-                </marker>
-              </defs>
-              <line x1=0px x2=47px y1=5.237px y2=5.237px stroke="#FFFFFF" 
-              stroke-width=1px marker-end="url(#arrowhead_main)" />
-              </svg>
-            </button>
+            <a class="banner__button" href="#">
+              <span class="banner__button--text">Learn more
+                <svg class="button__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="60px" height="20px" viewBox="0 0 60 11">
+                <defs>
+                  <marker id="arrowhead_main" markerWidth="7" markerHeight="11"  refX="6.3882" refY="5.237" orient="auto">
+                  <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+                  0.375,0.375 6.3882,5.237 0.375,10.325 "/>
+                  </marker>
+                </defs>
+                <line x1=0px x2=47px y1=5.237px y2=5.237px stroke="#FFFFFF" 
+                stroke-width=1px marker-end="url(#arrowhead_main)" />
+                </svg>
+              </span>
+            </a>
 
             <div class="section__scrolldown">
               <img class="section__scrolldown--mouse" src="/mouse61@1X.png" alt="mouse scroll down" />
@@ -139,10 +141,10 @@
           <div class="main__screen--floatingtext">furniture &amp; decor</div>
         </div>
 
-        <button class="main__screen--share" ><img src="share27@1X.png" alt="share button" /></button>
+        <a class="main__screen--share" href="#"><img src="share27@1X.png" alt="share button" /></a>
       </div>
 
-      <section class="section_01">
+      <section class="section_01" id="furniture">
 
         <div class="section_floating_initial">f
         </div>
@@ -386,12 +388,9 @@
 
                 <p class="section__text section-04__text">This is a team of professionals that make the furniture and wood décor high standard. Creating modern designs. Adhering to the global quality standards. And we are doing work with love.
                 </p>
-              <button class="banner__button section-04__button">
-                <span section-04__button--layout>
-                  <img src="/player6@1X.png" alt="Play icon on a button"/>
+              <a class="banner__button section-04__button" href="#">
                   <span class="banner__button--text">Watch video</span>
-                </span>
-              </button>
+              </a>
             </div>
 
             <img class="section-04__playicon" src="player6 kопировать@1X.png" alt="Play icon background" />
@@ -406,7 +405,7 @@
 
       </section>
 
-      <section class="section_05">
+      <section class="section_05" id="about">
         <div class="section_floating_initial section_floating_initial--reverse">a
         </div>
 
@@ -476,7 +475,7 @@
           <line x1=0px x2=56px y1=6px y2=6px stroke="#BEA67C" stroke-width=6px></line>
         </svg>
       </div>
-      <div class="footer__content footer__author">Designed by <span class="dev__name">Viacheslav Olianishyn</span></div>
+      <div class="footer__content footer__author">Put together by <span class="dev__name">Tatsiana Lohinava</span></div>
     </footer>
   </div>
 </body>
