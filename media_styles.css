@@ -31,10 +31,9 @@
     justify-content: left;
   }
 
-  .main__screen h1 {
-    font-size: 70px;
-    letter-spacing: 0.2em;
-    margin-left: -50px;
+  .main__screen .main__screen--content {
+    width: 100%;
+    align-content: center;
   }
 
   .container section {
