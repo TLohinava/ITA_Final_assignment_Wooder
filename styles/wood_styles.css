@@ -31,7 +31,7 @@ p {
   min-height: 100vh;
   background-image: linear-gradient(rgba(5, 5, 5, 0.9),
                   rgba(5, 5, 5, 0.9)), 
-                    url(DSC_1007_2000@1X.png);
+                    url(../img/DSC_1007_2000@1X.png);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 1299px 1000px;
@@ -42,7 +42,7 @@ p {
   position: absolute;
   background-image: linear-gradient(rgba(5, 5, 5, 0.9),
                   rgba(5, 5, 5, 0.9)), 
-                     url(boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile@1X.png);
+                     url(../img/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile@1X.png);
   background-repeat: no-repeat;
   top: 0px;
   right: 0px;
@@ -109,6 +109,28 @@ p {
 
 .header__info--button {
   opacity: 0.5019607843137255;
+}
+
+.header__info--buttonBeat {
+  animation-name: buttonBeat;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: linear;
+}
+
+@keyframes buttonBeat {
+  from{
+    transform: scale(1);
+  } 
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  } 
 }
 
 .language__arrow {
@@ -534,15 +556,15 @@ p {
 }
 
 .video__image--innovative {
-  background-image:url(GIBRALTAR-BENCH-IN-TABLES-COFFEE-AND-SEATING@0.75X.png);
+  background-image:url(../img/GIBRALTAR-BENCH-IN-TABLES-COFFEE-AND-SEATING@0.75X.png);
 }
 
 .video__image--hq {
-  background-image:url(wood-furniture-design@0.75X.png);
+  background-image:url(../img/wood-furniture-design@0.75X.png);
 }
 
 .video__image--quality {
-  background-image:url(upcycled-02@0.75X.png);
+  background-image:url(../img/upcycled-02@0.75X.png);
 }
 
 
@@ -587,7 +609,7 @@ p {
 
 .section-04__container::before {    
   content: "";
-  background-image: url(player6\ kопировать@1X.png);
+  background-image: url(../img/player6\ kопировать@1X.png);
   background-size: auto;
   background-repeat: no-repeat;
   position: absolute;
@@ -634,7 +656,7 @@ p {
   display: grid;
   grid-column: 2;
   grid-row: 5;
-  background-image: url(player6@1X.png);
+  background-image: url(../img/player6@1X.png);
   background-repeat: no-repeat;
   background-position: top 18px left 60px;
 }
@@ -649,7 +671,7 @@ p {
   align-items: center;
   flex-direction: row;
   height: 100px;
-  background-image: linear-gradient(rgba(5, 5, 5, 0.9),rgba(5, 5, 5, 0.9)), url(DSC_1007_2000@1X.png);
+  background-image: linear-gradient(rgba(5, 5, 5, 0.9),rgba(5, 5, 5, 0.9)), url(../img/DSC_1007_2000@1X.png);
   background-size: cover;
   background-position: center;
   color: #464646;
