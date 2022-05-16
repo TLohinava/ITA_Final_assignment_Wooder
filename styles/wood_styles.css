@@ -30,8 +30,10 @@ p {
   margin: 0px auto;
   min-height: 100vh;
   background-image: linear-gradient(rgba(5, 5, 5, 0.9),
+
       rgba(5, 5, 5, 0.9)),
     url(../img/DSC_1007_2000@1X.png);
+
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 1299px 1000px;
@@ -41,8 +43,10 @@ p {
 .container__backgroundimage {
   position: absolute;
   background-image: linear-gradient(rgba(5, 5, 5, 0.9),
+
       rgba(5, 5, 5, 0.9)),
     url(../img/boss-fight-free-stock-images-photography-photos-high-resolution-wood-pile@1X.png);
+
   background-repeat: no-repeat;
   top: 0px;
   right: 0px;
@@ -556,6 +560,7 @@ p {
 }
 
 .video__image--innovative {
+
   background-image: url(../img/GIBRALTAR-BENCH-IN-TABLES-COFFEE-AND-SEATING@0.75X.png);
 }
 
@@ -565,6 +570,7 @@ p {
 
 .video__image--quality {
   background-image: url(../img/upcycled-02@0.75X.png);
+
 }
 
 
@@ -609,7 +615,7 @@ p {
 
 .section-04__container::before {
   content: "";
-  background-image: url(../img/player6\ kопировать@1X.png);
+  background-image: url(./img/player6\ kопировать@1X.png);
   background-size: auto;
   background-repeat: no-repeat;
   position: absolute;
@@ -656,7 +662,7 @@ p {
   display: grid;
   grid-column: 2;
   grid-row: 5;
-  background-image: url(../img/player6@1X.png);
+  background-image: url(./img/player6@1X.png);
   background-repeat: no-repeat;
   background-position: top 18px left 60px;
 }
